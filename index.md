@@ -1,11 +1,12 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: Edward Moises ROndpn Paredes
+            Junior Data Analyst
   text: >
     HELLO THERE
   action: # action button is optional
-    label: Find Out More
+    label: About Me
     url: '#about'
 
 
@@ -13,8 +14,12 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: About Me
+    text: Junior Data Analyst | Excel and Power BI Enthusiast
+          
+            Aspiring data analyst with foundational skills in Excel, Power BI, and data visualization. Passionate about transforming raw data into meaningful insights through interactive dashboards and clear visuals. Skilled in basic data cleaning, analysis, and creating reports to support decision-making.
+        
+            Eager to grow and contribute by applying learned techniques and exploring innovative solutions to data challenges. Committed to delivering reliable and detail-oriented work while continuously improving and gaining expertise in the field.
     actions:
       - title: Get Started!
         url: '#page-top'
