@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: Edward Moises ROndpn Paredes
+  title: Edward Moises Rondon Paredes
             Junior Data Analyst
   text: >
     HELLO THERE
