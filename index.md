@@ -15,7 +15,7 @@ sections:
     section_id: about
     background_style: bg-primary
     title: About Me
-    text: Junior Data Analyst | Excel and Power BI Enthusiast
+    text: Junior Data Analyst | Excel and Power BI Enthusiast 
           
             Aspiring data analyst with foundational skills in Excel, Power BI, and data visualization. Passionate about transforming raw data into meaningful insights through interactive dashboards and clear visuals. Skilled in basic data cleaning, analysis, and creating reports to support decision-making.
         
