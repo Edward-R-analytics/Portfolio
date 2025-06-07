@@ -30,14 +30,14 @@ sections:
     title: What do I work with?
     services:
       - title: Excel
-        text: Advanced Aata Analysis.
+        text: Advanced Data Analysis.
         image: assets/img/Excel-logo.png
         url: https://startbootstrap.com/
       - title: Power BI
-        text: Data visualization
+        text: Data Visualization
         image: assets/img/powerbi.png
       - title: SQL
-        text: Database management
+        text: Database Management
         image: assets/img/SQL.jpg
         
     
