@@ -30,14 +30,14 @@ sections:
     title: What do I work with?
     services:
       - title: Excel
-        text: Excel bla bla bla.
+        text: Advanced Aata Analysis.
         image: assets/img/Excel-logo.png
         url: https://startbootstrap.com/
       - title: Power BI
-        text: You can use this theme as is, or you can make changes!
+        text: Data visualization
         image: assets/img/powerbi.png
       - title: SQL
-        text: We update dependencies to keep things fresh.
+        text: Database management
         image: assets/img/SQL.jpg
         
     
