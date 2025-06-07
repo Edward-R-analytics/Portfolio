@@ -31,8 +31,8 @@ sections:
     services:
       - title: Excel
         text: Excel bla bla bla.
-        image: "/assets/img/Excel-logo.png"
-        level: "75%"
+        image: /assets/img/Excel-logo.png
+        level: 75%
         url: https://startbootstrap.com/
       - title: Ready to Ship
         text: You can use this theme as is, or you can make changes!
