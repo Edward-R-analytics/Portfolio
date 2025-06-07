@@ -13,9 +13,9 @@
       {% assign colsM = colsL | times: 2 %}
 
       {% for service in section.services %}
-      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
-        <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 20px 0;">
-            <img src="assets/img/Excel-logo.png" alt="Microsoft Excel" width="100">
+      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">  
+        <div > 
+            
           <h3 class="h4 mb-2">{{ service.title }}</h3>
           <div class="text-muted mb-0">
             {{ service.text | markdownify }}
