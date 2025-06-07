@@ -4,15 +4,9 @@
     <hr class="divider border border-primary border-2">
     <div class="row gx-4 gx-lg-5 justify-content-center">
       <!-- {#% assign cols = section.size | at_most: 4 %#} -->
-      {% assign cols = section.size %}
-      {% if cols > 4 %}
-        {% assign cols = 4 %}
-      {% endif %}
+      
 
-      {% assign colsL = 12 | divided_by: cols %}
-      {% assign colsM = colsL | times: 2 %}
-
-      {% for service in section.services %}
+      
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 20px 0;">
             <img src="assets/img/Excel-logo.png" alt="Microsoft Excel" width="100">
