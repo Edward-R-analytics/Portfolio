@@ -31,14 +31,14 @@ sections:
     services:
       - title: Excel
         text: Excel bla bla bla.
-        
+        image: assets/img/Excel-logo.png
         url: https://startbootstrap.com/
       - title: Power BI
         text: You can use this theme as is, or you can make changes!
-        
+        image: assets/img/powerbi.png
       - title: SQL
         text: We update dependencies to keep things fresh.
-        
+        image: assets/img/SQL.jpg
         
     
 

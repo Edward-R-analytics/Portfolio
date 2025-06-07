@@ -13,21 +13,15 @@
       {% assign colsM = colsL | times: 2 %}
 
       {% for service in section.services %}
-      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
-        <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 20px 0;">
-            <img src="assets/img/Excel-logo.png" alt="Microsoft Excel" width="100">
-            <img src="assets/img/powerbi.png" alt="Microsoft Excel" width="100">
-            <img src="assets/img/SQL.jpg" alt="Microsoft Excel" width="100">
-          <h3 class="h4 mb-2">{{ service.title }}</h3>
-          <div class="text-muted mb-0">
-            {{ service.text | markdownify }}
-            {% if service.url %}
-              <a href="{{ service.url }}"><i class="bi bi-link"></i></a>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
+  <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
+    <!-- Imagen específica para cada servicio -->
+    <img src="{{ service.image }}" alt="{{ service.title }}" width="100">
+    <h3 class="h4 mb-2">{{ service.title }}</h3>
+    <div class="text-muted mb-0">
+      {{ service.text | markdownify }}
+    </div>
+  </div>
+{% endfor %}
     </div>
   </div>
 </section>
