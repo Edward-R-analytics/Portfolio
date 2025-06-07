@@ -33,21 +33,13 @@ sections:
         text: Excel bla bla bla.
         
         url: https://startbootstrap.com/
-      - title: Ready to Ship
+      - title: Power BI
         text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
+        
+      - title: SQL
         text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
+        
+    
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
