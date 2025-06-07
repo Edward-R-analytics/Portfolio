@@ -21,13 +21,13 @@ sections:
             Eager to grow and contribute by applying learned techniques and exploring innovative solutions to data challenges. Committed to delivering reliable and detail-oriented work while continuously improving and gaining expertise in the field.
     actions:
       - title: Get Started!
-        url: '#page-top'
+        url: '#services'
         class: btn-light
 
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: What do I work with?
     services:
       - title: Sturdy Templates
         text: Our templates are updated regularly so they don't break.
