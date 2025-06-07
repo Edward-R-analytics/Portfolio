@@ -28,6 +28,7 @@ sections:
     section_id: services
     #background_style: bg-info
     title: What do I work with?
+    section_id: services
     services:
       - title: Excel
         text: Advanced Data Analysis.
