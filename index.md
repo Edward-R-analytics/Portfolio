@@ -29,7 +29,7 @@ sections:
     #background_style: bg-info
     title: What do I work with?
     services:
-      - title: Sturdy Templates
+      - title: Excel
         text: Our templates are updated regularly so they don't break.
         icon: bi-gem text-info
         url: https://startbootstrap.com/
