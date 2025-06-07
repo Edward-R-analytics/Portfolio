@@ -2,7 +2,7 @@
 layout: home
 header:
   title: Edward Moises Rondon Paredes
-            Junior Data Analyst
+            Junior Data Analystoo
   text: >
     HELLO THERE
   action: # action button is optional
