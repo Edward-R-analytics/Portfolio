@@ -63,10 +63,6 @@ sections:
         icon: proyecto-excel3.png
         url: '#'
       - title: Power BI Project 1 
-        actions:
-          - title: link cloud
-            url: https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9
-            class: btn-light
         text: This is a very short project description.
         icon: powerbi-proyecto1.png
         url: '#'
