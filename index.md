@@ -112,16 +112,16 @@ sections:
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
-      icon: bi-telephone-fill
-    - title: E-Mail
-      icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
-      url: '#'
-    - title: Facebook
-      icon: bi-facebook
-      url: '#'
+    - title: +58 424-7722348
+      image: /assets/img/whatsapp-logo.jpg
+    - title: moisesrp669@gmail.com
+      image: /assets/img/gmail.png
+      url:
+    - title: LinkedIn
+      image: /assets/img/linkedin.png
+      url: https://www.linkedin.com/in/edwardrondón/
+    - title: UpWork
+      image: /assets/img/upwork.png
+      url: https://www.upwork.com/freelancers/~013baa2e68f454bd52
 
 ---
