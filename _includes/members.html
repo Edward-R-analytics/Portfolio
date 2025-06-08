@@ -6,8 +6,13 @@
       {% for member in section.members %}
       <div class="col-lg-3 col-md-6 text-center">
         <div class="member-box">
-          <img class="text-primary" src="{{ member.image }}" alt="{{ member.title }}" 
-     style="border-radius: 0; border: 5px solid #2a9fd6; padding: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+          <img class="text-primary" src="{{ member.image }}" alt="{{ member.title }}"
+     style="border-radius: 0; 
+            border: 10px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2), 
+                        0 6px 20px rgba(0,0,0,0.19);
+            transform: perspective(500px) rotateX(5deg);
+            transition: all 0.3s ease;">
           <h3 class="h4 mb-2">{{ member.title }}</h3>
           <p class="text-white mb-0">{{ member.text }}</p>
         </div>
