@@ -52,15 +52,15 @@ sections:
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: proyecto_excel1.png
         url: '#'
       - title: Project 2
         text: This is a very short project description.
-        icon: 2.jpg
+        icon: proyecto_excel2.png
         url: '#'
       - title: Project 3
         text: This is a very short project description.
-        icon: 3.jpg
+        icon: proyecto_excel3.png
         url: '#'
       - title: Project 4
         text: This is a very short project description.
