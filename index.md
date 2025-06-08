@@ -76,7 +76,9 @@ sections:
         url: '#'
 
   - type: members.html  asdad
-    projects:
+    section_id: members
+    title: My Certificates
+    members:
       - title: Basic Excel 
         text: This is a simple Excel project with a simple dashboard that updates when you update the database
         icon: excelbasico.png
