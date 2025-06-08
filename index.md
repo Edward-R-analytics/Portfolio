@@ -75,34 +75,31 @@ sections:
         icon: powerbi-proyecto3.png
         url: '#'
 
-  - type: members.html
-    section_id: members
-    title: My Certificates
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+  - type: portfolio.html  asdad
+    projects:
+      - title: Basic Excel 
+        text: This is a simple Excel project with a simple dashboard that updates when you update the database
+        icon: excelbasico.png
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: Intermediate Excel 
+        text: A more detailed excel project with two dashboards of different reports
+        icon: excelintermedio.png
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
+      - title: Excel and Power BI 
+        text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
+        icon: udemy.png
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
+      - title: Power BI
+        text: This is a very short project description.
+        icon: powerbibasico.png
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
+      - title: Power BI short
+        text: This is a very short project description.
+        icon: intensivo.png
         url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: Basic SQL
+        text: This is a very short project description.
+        icon: sqlbasico.png
         url: '#'
 
   - type: timeline.html
