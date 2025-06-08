@@ -75,7 +75,7 @@ sections:
         icon: powerbi-proyecto3.png
         url: '#'
 
-  - type: portfolio.html  asdad
+  - type: members.html  asdad
     projects:
       - title: Basic Excel 
         text: This is a simple Excel project with a simple dashboard that updates when you update the database
@@ -85,21 +85,21 @@ sections:
         text: A more detailed excel project with two dashboards of different reports
         icon: excelintermedio.png
         url: '#'
-      - title: Excel and Power BI 
+      - title: Excel y Power
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
-        icon: udemy.png
+        icon: proyecto-excel3.png
         url: '#'
-      - title: Power BI
+      - title: Power BI Project 1 
         text: This is a very short project description.
-        icon: powerbibasico.png
+        icon: powerbi-proyecto1.png
         url: '#'
-      - title: Power BI short
+      - title: Power BI Project 2
         text: This is a very short project description.
-        icon: intensivo.png
+        icon: powerbi-proyecto2.png
         url: '#'
-      - title: Basic SQL
+      - title: Power BI Project 3
         text: This is a very short project description.
-        icon: sqlbasico.png
+        icon: powerbi-proyecto3.png
         url: '#'
 
   - type: timeline.html
