@@ -62,17 +62,17 @@ sections:
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto-excel3.png
         url: '#'
-      - title: Project 4
+      - title: Power BI Project 1
         text: This is a very short project description.
-        icon: 4.jpg
+        icon: powerbi-proyecto1.png
         url: '#'
-      - title: Project 5
+      - title: Power BI Project 2
         text: This is a very short project description.
-        icon: 5.jpg
+        icon: powerbi-proyecto2.png
         url: '#'
-      - title: Project 6
+      - title: Power BI Project 3
         text: This is a very short project description.
-        icon: 6.jpg
+        icon: powerbi-proyecto3.png
         url: '#'
 
   - type: aside.html
