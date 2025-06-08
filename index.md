@@ -82,7 +82,7 @@ sections:
     members:
       - title: Christina M. Aponte
         text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+        image: assets/img/fullsize/excelbasico.png
         url: '#'
       - title: Gary D. Stevens
         text: Bass guitar.
