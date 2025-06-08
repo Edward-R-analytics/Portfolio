@@ -47,19 +47,19 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Excel Dashboard Project
+        text: This is a simple Excel project with a simple dashboard that updates when you update the database
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: proyecto-excel1.png
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
+      - title: Excel Project 2
+        text: A more detailed excel project with two dashboards of different reports
         icon: proyecto_excel2.png
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
+      - title: Excel Project 3
+        text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto-excel3.png
         url: '#'
       - title: Project 4
