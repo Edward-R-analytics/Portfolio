@@ -80,29 +80,29 @@ sections:
     title: My Certificates
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
+      - title: Basic Excel
+        text: From Daxus Latam (Daxus.com)
         image: assets/img/members/excelbasico.png
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: Intermediate Excel
+        text: From Daxus Latam (Daxus.com)
+        image: assets/img/members/excelintermedio.png
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
+      - title: Excel & Power BI / Data analysis and Visualization
+        text: Udemy Datdata
+        image: assets/img/members/udemy.png
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
+      - title: Power BI Basics
+        text: From Daxus Latam (Daxus.com)
+        image: assets/img/members/powerbibasico.png
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
+      - title: Power BI intensivo
+        text: From Daxus Latam (Daxus.com)
+        image: assets/img/members/intensivo.png
         url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: Basic SQL
+        text: From Daxus Latam
+        image: assets/img/members/sqlbasico.png
         url: '#'
 
   - type: timeline.html
