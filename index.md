@@ -88,7 +88,7 @@ sections:
         text: From Daxus Latam (Daxus.com)
         image: assets/img/members/excelintermedio.png
         url: '#'
-      - title: Excel & Power BI / Data analysis and Visualization
+      - title: Excel & Power BI
         text: Udemy Datdata
         image: assets/img/members/udemy.png
         url: '#'
