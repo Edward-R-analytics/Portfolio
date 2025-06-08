@@ -114,7 +114,7 @@ sections:
     actions:
     - title: +58 424-7722348
       image: assets/img/Contact/whatsapp-logo.jpg
-    - title: moisesrp669@gmail.com
+    - title: 
       image: assets/img/gmail.png
       url:
     - title: LinkedIn
