@@ -25,7 +25,7 @@ sections:
         class: btn-light
 
   - type: services.html
-    section_id: services
+    section_id: servicess
     #background_style: bg-info
     title: What do I work with?
     services:
