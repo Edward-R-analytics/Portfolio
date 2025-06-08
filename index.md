@@ -47,7 +47,7 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Excel Dashboard Project
+      - title: Excel Dashboard Project 
         text: This is a simple Excel project with a simple dashboard that updates when you update the database
         # the images are located in:
         # img/portfolio/fullsize
@@ -62,7 +62,7 @@ sections:
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto-excel3.png
         url: '#'
-      - title: Power BI Project 1
+      - title: Power BI Project 1 (https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9)
         text: This is a very short project description.
         icon: powerbi-proyecto1.png
         url: '#'
