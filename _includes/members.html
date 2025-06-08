@@ -22,20 +22,6 @@
   <h3 class="h4 mb-2" style="color: #333; font-weight: 600;">{{ member.title }}</h3>
   <p class="mb-0" style="color: #666; font-size: 0.9rem;">{{ member.text }}</p>
 </div>
-
-<script>
-// Añade este script antes de cerrar el body para el efecto hover
-document.querySelectorAll('.member-box').forEach(box => {
-  box.addEventListener('mouseenter', function() {
-    this.style.boxShadow = '0 10px 20px rgba(0,0,0,0.15)';
-    this.querySelector('div').style.transform = 'scaleX(1)';
-  });
-  box.addEventListener('mouseleave', function() {
-    this.style.boxShadow = '0 3px 10px rgba(0,0,0,0.1)';
-    this.querySelector('div').style.transform = 'scaleX(0)';
-  });
-});
-</script>
           <h3 class="h4 mb-2">{{ member.title }}</h3>
           <p class="text-white mb-0">{{ member.text }}</p>
         </div>
