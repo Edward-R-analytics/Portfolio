@@ -75,17 +75,9 @@ sections:
         icon: powerbi-proyecto3.png
         url: '#'
 
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
-
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: My Certificates
     background_style: bg-info text-white
     members:
       - title: Christina M. Aponte
