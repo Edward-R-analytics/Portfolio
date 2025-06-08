@@ -113,15 +113,15 @@ sections:
       and we will get back to you as soon as possible!
     actions:
     - title: +58 424-7722348
-      image: /assets/img/Contact/whatsapp-logo.jpg
+      image: assets/img/Contact/whatsapp-logo.jpg
     - title: moisesrp669@gmail.com
-      image: /assets/img/gmail.png
+      image: assets/img/gmail.png
       url:
     - title: LinkedIn
-      image: /assets/img/Contact/linkedin.png
+      image: assets/img/Contact/linkedin.png
       url: https://www.linkedin.com/in/edwardrondón/
     - title: UpWork
-      image: /assets/img/Contact/upwork.png
+      image: assets/img/Contact/upwork.png
       url: https://www.upwork.com/freelancers/~013baa2e68f454bd52
 
 ---
