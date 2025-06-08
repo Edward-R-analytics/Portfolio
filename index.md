@@ -115,7 +115,7 @@ sections:
     - title: +58 424-7722348
       image: assets/img/Contact/whatsapp-logo.jpg
     - title: 
-      image: assets/img/gmail.png
+      image: assets/img/Contact/gmail.png
       url:
     - title: LinkedIn
       image: assets/img/Contact/linkedin.png
