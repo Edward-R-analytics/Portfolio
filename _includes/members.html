@@ -6,16 +6,20 @@
       {% for member in section.members %}
       <div class="col-lg-3 col-md-6 text-center">
         <div class="member-box">
-          <div style="display: inline-block; 
-            padding: 8px; 
-            background: linear-gradient(135deg, #4776E6, #8E54E9);
-            box-shadow: 0 4px 15px rgba(71, 118, 230, 0.4);">
+          <div class="member-box" style="background: white; 
+                             padding: 15px 15px 40px 15px; 
+                             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                             transform: rotate(1deg);
+                             transition: all 0.3s ease;">
   <img class="text-primary" src="{{ member.image }}" alt="{{ member.title }}"
        style="border-radius: 0; 
-              display: block; 
               width: 100%; 
-              height: auto;
-              border: 3px solid white;">
+              height: 180px; 
+              object-fit: cover;
+              border-bottom: 1px solid #eee;
+              margin-bottom: 15px;">
+  <h3 class="h4 mb-2" style="color: #333;">{{ member.title }}</h3>
+  <p class="mb-0" style="color: #666;">{{ member.text }}</p>
 </div>
           <h3 class="h4 mb-2">{{ member.title }}</h3>
           <p class="text-white mb-0">{{ member.text }}</p>
