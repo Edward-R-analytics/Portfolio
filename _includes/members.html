@@ -8,20 +8,46 @@
         <div class="member-box">
           <div class="member-box" style="background: white; 
                              padding: 15px 15px 40px 15px; 
-                             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-                             transition: all 0.3s ease;
+                             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+                             transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
                              position: relative;
-                             margin-bottom: 30px;">
+                             margin-bottom: 30px;
+                             border-top: 4px solid #2a9fd6;">
   <img class="text-primary" src="{{ member.image }}" alt="{{ member.title }}"
        style="border-radius: 0; 
               width: 100%; 
               height: 180px; 
               object-fit: cover;
-              border-bottom: 1px solid #f0f0f0;
-              margin-bottom: 15px;">
-  <h3 class="h4 mb-2" style="color: #333; font-weight: 600;">{{ member.title }}</h3>
-  <p class="mb-0" style="color: #666; font-size: 0.9rem;">{{ member.text }}</p>
+              margin-bottom: 15px;
+              transition: all 0.3s ease;">
+  <h3 class="h4 mb-2" style="color: #333; font-weight: 600; transition: all 0.3s ease;">{{ member.title }}</h3>
+  <p class="mb-0" style="color: #666; font-size: 0.9rem; transition: all 0.3s ease;">{{ member.text }}</p>
+  
+  <!-- Efecto hover -->
+  <div style="position: absolute; 
+              bottom: 0; 
+              left: 0; 
+              right: 0; 
+              height: 3px; 
+              background: linear-gradient(to right, #4776E6, #8E54E9);
+              transform: scaleX(0); 
+              transform-origin: bottom left;
+              transition: transform 0.3s ease;"></div>
 </div>
+
+<script>
+// Añade este script antes de cerrar el body para el efecto hover
+document.querySelectorAll('.member-box').forEach(box => {
+  box.addEventListener('mouseenter', function() {
+    this.style.boxShadow = '0 10px 20px rgba(0,0,0,0.15)';
+    this.querySelector('div').style.transform = 'scaleX(1)';
+  });
+  box.addEventListener('mouseleave', function() {
+    this.style.boxShadow = '0 3px 10px rgba(0,0,0,0.1)';
+    this.querySelector('div').style.transform = 'scaleX(0)';
+  });
+});
+</script>
           <h3 class="h4 mb-2">{{ member.title }}</h3>
           <p class="text-white mb-0">{{ member.text }}</p>
         </div>
