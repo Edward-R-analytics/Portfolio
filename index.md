@@ -85,21 +85,21 @@ sections:
         text: A more detailed excel project with two dashboards of different reports
         icon: excelintermedio.png
         url: '#'
-      - title: Excel y Power
+      - title: Excel y Power BI
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
-        icon: proyecto-excel3.png
+        icon: udemy.png
         url: '#'
-      - title: Power BI Project 1 
+      - title: Power BI 
         text: This is a very short project description.
-        icon: powerbi-proyecto1.png
+        icon: powerbibasico.png
         url: '#'
-      - title: Power BI Project 2
+      - title: Power BI shot
         text: This is a very short project description.
-        icon: powerbi-proyecto2.png
+        icon: intensivo.png
         url: '#'
-      - title: Power BI Project 3
+      - title: Basic SQL
         text: This is a very short project description.
-        icon: powerbi-proyecto3.png
+        icon: sqlbasico.png
         url: '#'
 
   - type: timeline.html
