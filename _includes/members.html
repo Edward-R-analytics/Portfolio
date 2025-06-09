@@ -5,22 +5,32 @@
     <div class="row justify-content-center">
       {% for member in section.members %}
       <div class="col-lg-3 col-md-6 text-center">
-        <div class="member-box" style="background: white; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-          <a href="{{ member.image }}" data-lightbox="team-gallery" data-title="{{ member.title }}">
-            <img src="{{ member.image }}" alt="{{ member.title }}" 
-                 style="width: 100%; 
-                        height: 180px; 
-                        object-fit: cover; 
-                        cursor: pointer;
-                        border-radius: 0; /* Esto hace la imagen cuadrada */
-                        border: 1px solid #eee; /* Borde opcional */
-                        padding: 3px; /* Espacio interior opcional */">
-          </a>
-          <h3 class="h4 mb-2 mt-3">{{ member.title }}</h3>
-          <p class="mb-0 text-muted">{{ member.text }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+        <div class="member-box" style="background: white; 
+                             padding: 15px; 
+                             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                             transition: all 0.3s ease;">
+  <a href="{{ member.image }}" data-lightbox="team-gallery" data-title="{{ member.title }}">
+    <img src="{{ member.image }}" alt="{{ member.title }}" 
+         style="width: 100%; 
+                height: 180px; 
+                object-fit: cover; 
+                cursor: pointer;
+                border-radius: 0;
+                border: 1px solid #eee;
+                padding: 3px;
+                transition: all 0.3s ease;">
+  </a>
+  <!-- resto del contenido -->
+</div>
+
+<style>
+  .member-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  .member-box:hover img {
+    border: 1px solid #2a9fd6;
+    box-shadow: 0 0 0 3px rgba(42, 159, 214, 0.2);
+  }
+</style>
