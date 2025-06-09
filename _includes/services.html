@@ -14,13 +14,14 @@
 
       {% for service in section.services %}
   <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
-    <!-- Imagen específica para cada servicio -->
-    <img src="{{ service.image }}" alt="{{ service.title }}" width="200">
-    <h3 class="h4 mb-2">{{ service.title }}</h3>
-    <div class="text-muted mb-0">
-      {{ service.text | markdownify }}
-    </div>
+  <a href="{{ service.image }}" data-lightbox="services-gallery" data-title="{{ service.title }}">
+    <img src="{{ service.image }}" alt="{{ service.title }}" width="200" class="img-thumbnail">
+  </a>
+  <h3 class="h4 mb-2">{{ service.title }}</h3>
+  <div class="text-muted mb-0">
+    {{ service.text | markdownify }}
   </div>
+</div>
 {% endfor %}
     </div>
   </div>
