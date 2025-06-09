@@ -8,17 +8,19 @@
       </div>
     </div>
     <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-      {% for action in section.actions %}
-      <div class="col-md-3 col-sm-6 text-center mb-4">
-        <div class="contact-method">
-          <!-- MODIFICA ESTA LÍNEA - AGREGAR STYLE DIRECTAMENTE -->
-          <img src="{{ action.image }}" alt="{{ action.title }}" 
-               class="contact-image mb-3"
-               style="width: 100px; height: 100px; object-fit: contain; display: block; margin-left: auto; margin-right: auto; background: white; padding: 5px; border-radius: 8px; border: 1px solid #eee;">
-          <a class="d-block contact-link" href="{{ action.url }}">{{ action.title }}</a>
-        </div>
-      </div>
-      {% endfor %}
+  {% for action in section.actions %}
+  <div class="col-md-3 col-sm-6 text-center mb-4">
+    <div class="contact-method">
+      <img src="{{ action.image }}" alt="{{ action.title }}" 
+           class="contact-image mb-3"
+           style="width: 100px; height: 100px; object-fit: contain; display: block; margin-left: auto; margin-right: auto; background: white; padding: 5px; border-radius: 8px; border: 1px solid #eee;">
+      
+      {% if action.is_link %}
+        <a class="d-block contact-link" href="{{ action.url }}">{{ action.title }}</a>
+      {% else %}
+        <span class="d-block contact-text">{{ action.title }}</span>
+      {% endif %}
     </div>
   </div>
-</section>
+  {% endfor %}
+</div>
