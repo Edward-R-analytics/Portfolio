@@ -19,6 +19,15 @@
           <h3 class="h4 mb-2 mt-3">{{ member.title }}</h3>
           <p class="mb-0 text-muted">{{ member.text }}</p>
         </div>
+        <style>
+  .member-box img {
+    transition: transform 0.3s ease;
+  }
+  
+  .member-box:hover img {
+    transform: scale(1.03);
+  }
+</style>
       </div>
       {% endfor %}
     </div>
