@@ -3,7 +3,6 @@
     <h2 class="text-center mt-0">{{ section.title }}</h2>
     <hr class="divider border border-primary border-2">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-      <!-- {#% assign cols = section.size | at_most: 4 %#} -->
       {% assign cols = section.size %}
       {% if cols > 4 %}
         {% assign cols = 4 %}
@@ -13,16 +12,22 @@
       {% assign colsM = colsL | times: 2 %}
 
       {% for service in section.services %}
-  <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
-  <a href="{{ service.image }}" data-lightbox="services-gallery" data-title="{{ service.title }}">
-    <img src="{{ service.image }}" alt="{{ service.title }}" width="200" class="img-thumbnail">
-  </a>
-  <h3 class="h4 mb-2">{{ service.title }}</h3>
-  <div class="text-muted mb-0">
-    {{ service.text | markdownify }}
-  </div>
-</div>
-{% endfor %}
+      <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
+        <!-- Eliminamos el enlace <a> que envolvía la imagen -->
+        <img src="{{ service.image }}" alt="{{ service.title }}" 
+             style="width: 200px; 
+                    height: 200px;
+                    object-fit: contain;
+                    border: 1px solid #eee;
+                    padding: 5px;
+                    border-radius: 4px;
+                    margin-bottom: 15px;">
+        <h3 class="h4 mb-2">{{ service.title }}</h3>
+        <div class="text-muted mb-0">
+          {{ service.text | markdownify }}
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
