@@ -14,24 +14,31 @@
       {% for service in section.services %}
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
   <div style="display: inline-block; 
-              padding: 10px; 
+              padding: 12px; 
               background: white; 
               border-radius: 8px; 
-              box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-              transition: all 0.3s ease;
-              border: 1px solid #f0f0f0;"
-       onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)'"
-       onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">
+              box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+              border: 1px solid #e0e0e0;
+              transition: all 0.3s ease;">
     <img src="{{ service.image }}" alt="{{ service.title }}" 
          style="width: 200px; 
                 height: 200px;
-                object-fit: contain;">
+                object-fit: contain;
+                border-radius: 4px;">
   </div>
-  <h3 class="h4 mb-2">{{ service.title }}</h3>
+  <h3 class="h4 mb-2 mt-3">{{ service.title }}</h3>
   <div class="text-muted mb-0">
     {{ service.text | markdownify }}
   </div>
 </div>
+
+<style>
+  .col-lg-{{ colsL }}:hover div {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-color: #2a9fd6;
+  }
+</style>
       {% endfor %}
     </div>
   </div>
