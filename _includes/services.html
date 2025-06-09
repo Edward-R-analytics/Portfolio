@@ -13,20 +13,19 @@
 
       {% for service in section.services %}
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
-        <!-- Eliminamos el enlace <a> que envolvía la imagen -->
-        <img src="{{ service.image }}" alt="{{ service.title }}" 
-             style="width: 200px; 
-                    height: 200px;
-                    object-fit: contain;
-                    border: 1px solid #eee;
-                    padding: 5px;
-                    border-radius: 4px;
-                    margin-bottom: 15px;">
-        <h3 class="h4 mb-2">{{ service.title }}</h3>
-        <div class="text-muted mb-0">
-          {{ service.text | markdownify }}
-        </div>
-      </div>
+  <div style="display: inline-block; padding: 8px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 12px; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
+    <img src="{{ service.image }}" alt="{{ service.title }}" 
+         style="width: 200px; 
+                height: 200px;
+                object-fit: contain;
+                border-radius: 6px;
+                border: 1px solid white;">
+  </div>
+  <h3 class="h4 mb-2">{{ service.title }}</h3>
+  <div class="text-muted mb-0">
+    {{ service.text | markdownify }}
+  </div>
+</div>
       {% endfor %}
     </div>
   </div>
