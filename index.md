@@ -32,7 +32,7 @@ sections:
       - title: Excel
         text: Advanced Data Analysis.
         image: assets/img/Excel-logo.png
-        url: https://startbootstrap.com/
+        
       - title: Power BI
         text: Data Visualization
         image: assets/img/powerbi.png
