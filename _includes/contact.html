@@ -11,28 +11,50 @@
   {% for action in section.actions %}
   <div class="col-md-3 col-sm-6 text-center mb-4">
     <div class="contact-method" style="transition: all 0.3s ease;">
-      <div style="width: 130px; height: 130px; /* Tamaño aumentado */
-                margin: 0 auto 15px;
-                padding: 8px; /* Marco más grueso */
-                background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Fondo degradado */
-                border-radius: 12px; /* Esquinas redondeadas */
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                display: flex;
-                align-items: center;
-                justify-content: center;">
-        <img src="{{ action.image }}" alt="{{ action.title }}" 
-             style="width: 100%; 
-                    height: 100%;
-                    object-fit: contain;
-                    border-radius: 6px;">
-      </div>
-      
       {% if action.is_link %}
+        <!-- Contenedor de imagen como enlace -->
+        <a href="{{ action.url }}" style="text-decoration: none;">
+          <div style="width: 130px; height: 130px;
+                    margin: 0 auto 15px;
+                    padding: 8px;
+                    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                    border-radius: 12px;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;"
+               onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0,0,0,0.15)'" 
+               onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.1)'">
+            <img src="{{ action.image }}" alt="{{ action.title }}" 
+                 style="width: 100%; 
+                        height: 100%;
+                        object-fit: contain;
+                        border-radius: 6px;
+                        transition: all 0.3s ease;">
+          </div>
+        </a>
         <a class="d-block contact-link" href="{{ action.url }}" 
            style="font-weight: 600; color: #2a9fd6; text-decoration: none;">
           {{ action.title }}
         </a>
       {% else %}
+        <!-- Versión sin enlace -->
+        <div style="width: 130px; height: 130px;
+                    margin: 0 auto 15px;
+                    padding: 8px;
+                    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                    border-radius: 12px;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;">
+          <img src="{{ action.image }}" alt="{{ action.title }}" 
+               style="width: 100%; 
+                      height: 100%;
+                      object-fit: contain;
+                      border-radius: 6px;">
+        </div>
         <span class="d-block contact-text" style="font-weight: 500; color: #333;">
           {{ action.title }}
         </span>
