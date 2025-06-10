@@ -47,6 +47,26 @@
          <!-- jQuery + Lightbox JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Configuración del Lightbox (ejemplo para Lightbox2)
+  lightbox.option({
+    'wrapAround': true,
+    'positionFromTop': 100,
+    'fadeDuration': 300,
+    // Personalizamos el título para incluir el icono
+    'sanitizeTitle': function(title) {
+      const link = this.element.getAttribute('data-external-link');
+      if (link) {
+        return `${title} <a href="${link}" target="_blank" class="lightbox-icon" style="color: white; margin-left: 10px;">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>`;
+      }
+      return title;
+    }
+  });
+});
+</script>
 
 <!-- Configuración opcional -->
 <script>
