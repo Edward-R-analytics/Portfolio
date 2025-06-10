@@ -61,10 +61,8 @@ sections:
       - title: Excel Project 3
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto-excel3.png
-        external_url: https://www.youtube.com
-
-
-
+        url:
+        
       - title: Power BI Project 1 
         text: This is a very short project description.
         icon: powerbi-proyecto1.png
