@@ -1,28 +1,17 @@
-<section id="portfolio" class="{{ section.background_style }}">
+<div id="portfolio" class="{{ section.background_style }}">
   <div class="container-fluid p-0">
     <div class="row g-0">
-      {% for proj in site.data.portfolio.projects %}
+      {% for proj in section.projects %}
       <div class="col-lg-4 col-sm-6">
-        <a class="portfolio-box" 
-           href="/assets/img/portfolio/fullsize/{{ proj.image }}" 
-           data-lightbox="portfolio"
-           data-title="{{ proj.title }}"
-           data-external-link="{{ proj.link }}">  <!-- Nuevo atributo -->
-          
-          <img class="img-fluid" src="/assets/img/portfolio/thumbnails/{{ proj.image }}" alt="{{ proj.title }}" />
-          
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50">
-              {{ proj.title }}
-              {% if proj.link %}
-                <i class="fas fa-link ms-2" style="font-size: 0.7em;"></i>
-              {% endif %}
-            </div>
-            <div class="project-name">{{ proj.description }}</div>
-          </div>
-        </a>
+          <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
+              <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">{{ proj.title }}</div>
+                  <div class="project-name">{{ proj.text }}</div>
+              </div>
+          </a>
       </div>
       {% endfor %}
     </div>
   </div>
-</section>
+</div>

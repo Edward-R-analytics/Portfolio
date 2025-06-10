@@ -79,26 +79,7 @@
   --bs-highlight-bg: #fff3cd;
 }
 
-  /* Estilos para el icono en el Lightbox */
-.lb-external-link {
-  display: inline-block;
-  margin-left: 10px;
-  color: #fff !important;
-  opacity: 0.8;
-  transition: all 0.3s;
-}
-
-.lb-external-link:hover {
-  opacity: 1;
-  transform: scale(1.2);
-  color: #2a9fd6 !important;
-}
-
-/* Asegura que el título tenga espacio */
-.lb-data .lb-details {
-  width: 100%;
-  padding: 0 20px;
-}
+  
 
 *,
 *::before,
