@@ -2,33 +2,14 @@
   <div class="container-fluid p-0">
     <div class="row g-0">
       {% for proj in section.projects %}
-      <div class="col-lg-4 col-sm-6 portfolio-item p-3"> <!-- Añadido padding -->
-        <!-- Contenedor de imagen mejorado -->
-        <div class="portfolio-img-container">
-          <a class="portfolio-img-link" href="assets/img/portfolio/fullsize/{{ proj.icon }}">
-            <img src="assets/img/portfolio/thumbnails/{{ proj.icon }}" 
-                 alt="{{ proj.title }}" 
-                 class="portfolio-img">
-            <div class="img-overlay">
-              <i class="fas fa-expand overlay-icon"></i>
-            </div>
+      <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
+              <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">{{ proj.title }}</div>
+                  <div class="project-name">{{ proj.text }}</div>
+              </div>
           </a>
-        </div>
-        
-        <!-- Contenedor de texto premium -->
-        <div class="portfolio-caption bg-white p-4"> <!-- Fondo blanco sólido -->
-          <h3 class="project-title text-dark mb-3">{{ proj.title }}</h3> <!-- Texto oscuro -->
-          <p class="project-description text-secondary mb-3">{{ proj.text }}</p> <!-- Texto gris -->
-          
-          {% if proj.url %}
-          <div class="d-flex align-items-center">
-            <a href="{{ proj.url }}" class="project-link me-3" target="_blank">
-              Ver Proyecto <i class="fas fa-external-link-alt ms-2"></i>
-            </a>
-            <span class="project-badge">Nuevo</span> <!-- Opcional -->
-          </div>
-          {% endif %}
-        </div>
       </div>
       {% endfor %}
     </div>
