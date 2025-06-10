@@ -57,7 +57,7 @@ sections:
       - title: Excel Project 2
         text: A more detailed excel project with two dashboards of different reports
         icon: proyecto_excel2.png
-        external_link: https://www.youtube.com
+        url: '#'
       - title: Excel Project 3
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto-excel3.png
