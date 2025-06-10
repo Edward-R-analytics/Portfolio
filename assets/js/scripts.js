@@ -56,4 +56,29 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
+    // Lightbox Customization
+document.addEventListener('DOMContentLoaded', function() {
+  // Inyecta el icono cuando el lightbox se abre
+  document.querySelectorAll('[data-lightbox="portfolio"]').forEach(item => {
+    item.addEventListener('click', function(e) {
+      setTimeout(() => {
+        const externalLink = this.getAttribute('data-external-link');
+        const lbData = document.querySelector('.lb-data .lb-details .lb-caption');
+        
+        if (lbData && externalLink) {
+          // Crea el icono de enlace
+          const linkIcon = document.createElement('a');
+          linkIcon.href = externalLink;
+          linkIcon.target = '_blank';
+          linkIcon.className = 'lb-external-link';
+          linkIcon.innerHTML = '<i class="fas fa-external-link-alt"></i>';
+          
+          // Inserta después del título
+          lbData.insertAdjacentElement('beforeend', linkIcon);
+        }
+      }, 300); // Delay para asegurar que Lightbox está listo
+    });
+  });
+});
+
 });
