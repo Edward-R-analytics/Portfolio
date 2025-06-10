@@ -65,7 +65,7 @@ sections:
         
       - title: Power BI Project 1 
         text: This is a very short project description.
-        icon: [powerbi-proyecto1.png, proyecto-excel22.png ]
+        icon: powerbi-proyecto1.png
         url: '#'
       - title: Power BI Project 2
         text: This is a very short project description.
