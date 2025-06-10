@@ -56,7 +56,51 @@
     'wrapAround': true, // Permite navegación circular
     'albumLabel': "Imagen %1 de %2" // Texto para el contador
   });
+
+
 </script>
+
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Asumimos que estás usando Lightbox2
+  const portfolioLinks = document.querySelectorAll('.portfolio-box');
+  
+  portfolioLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const imgUrl = this.getAttribute('href');
+      const title = this.getAttribute('title');
+      const description = this.getAttribute('data-description');
+      const externalLink = this.getAttribute('data-external-link');
+      
+      // Abre el lightbox manualmente
+      const lightboxInstance = lightbox.open([
+        {
+          src: imgUrl,
+          title: `${title}${externalLink ? 
+                 `<a href="${externalLink}" target="_blank" class="lb-external-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>` : ''}`
+        }
+      ], 0);
+      
+      // Añade la descripción si existe
+      if (description) {
+        setTimeout(() => {
+          const lbContainer = document.querySelector('.lb-container');
+          if (lbContainer) {
+            const descElement = document.createElement('div');
+            descElement.className = 'lb-description';
+            descElement.textContent = description;
+            lbContainer.querySelector('.lb-outerContainer').appendChild(descElement);
+          }
+        }, 50);
+      }
+    });
+  });
+});
+</script>
+
     </body>
 
 </html>

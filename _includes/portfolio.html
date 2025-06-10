@@ -3,14 +3,40 @@
     <div class="row g-0">
       {% for proj in section.projects %}
       <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
+          <a class="portfolio-box" 
+             href="assets/img/portfolio/fullsize/{{ proj.icon }}" 
+             title="{{ proj.title }}"
+             data-description="{{ proj.text }}"
+             data-external-link="{{ proj.link | default: '' }}">
               <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
               <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">{{ proj.title }}</div>
                   <div class="project-name">{{ proj.text }}</div>
               </div>
           </a>
+
       </div>
+
+      <style>
+  .lb-external-link {
+    margin-left: 10px;
+    color: white;
+    font-size: 0.8em;
+    transition: all 0.3s;
+  }
+  
+  .lb-external-link:hover {
+    color: #2a9fd6;
+    transform: scale(1.2);
+  }
+  
+  .lb-description {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 20px;
+  }
+</style>
       {% endfor %}
     </div>
   </div>
