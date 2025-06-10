@@ -1,37 +1,24 @@
 <div id="portfolio" class="{{ section.background_style }}">
-  <div class="container">
-    <div class="row g-4">
+  <div class="container-fluid p-0">
+    <div class="row g-0">
       {% for proj in section.projects %}
-      <div class="col-lg-4 col-md-6">
-        <!-- Tarjeta completa -->
-        <div class="portfolio-card">
-          <!-- Contenedor de imagen con hover -->
-          <div class="portfolio-img-wrapper">
-            <a href="assets/img/portfolio/fullsize/{{ proj.icon }}" data-lightbox="portfolio">
-              <img src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.title }}" class="portfolio-img">
-              <div class="img-overlay"></div>
-            </a>
-          </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <!-- Lightbox solo para la imagen -->
+        <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}">
+          <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.title }}" />
+        </a>
+        
+        <!-- Contenedor de texto SEPARADO (aquí puedes agregar enlaces) -->
+        <div class="portfolio-box-caption">
+          <h3 class="project-category">{{ proj.title }}</h3>
+          <p class="project-text">{{ proj.text }}</p>
           
-          <!-- Contenido de texto -->
-          <div class="portfolio-content">
-            <div class="d-flex justify-content-between align-items-start mb-2">
-              <h3 class="portfolio-title">{{ proj.title }}</h3>
-              {% if proj.url %}
-                <a href="{{ proj.url }}" class="portfolio-icon-link" target="_blank">
-                  <i class="fas fa-external-link-alt"></i>
-                </a>
-              {% endif %}
-            </div>
-            
-            <p class="portfolio-description">{{ proj.text }}</p>
-            
-            {% if proj.url %}
-              <a href="{{ proj.url }}" class="portfolio-btn" target="_blank">
-                Ver Detalles <i class="fas fa-arrow-right ms-2"></i>
-              </a>
-            {% endif %}
-          </div>
+          <!-- Ejemplo de enlace personalizado -->
+          {% if proj.url %}
+            <a href="{{ proj.url }}" class="btn btn-sm btn-primary mt-2" target="_blank">
+              Ver Proyecto <i class="fas fa-external-link-alt ms-1"></i>
+            </a>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
