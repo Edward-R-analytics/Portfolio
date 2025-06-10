@@ -48,6 +48,26 @@
          <!-- jQuery + Lightbox JS -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Override del comportamiento predeterminado del lightbox
+  lightbox.option({
+    'wrapAround': true,
+    'alwaysShowNavOnTouchDevices': true,
+    'albumLabel': 'Imagen %1 de %2'
+  });
+
+  // Convertir la imagen del lightbox en enlace
+  $(document).on('click', '.lb-image', function() {
+    const lightboxLink = $('.lb-container').closest('[data-link]');
+    const externalUrl = lightboxLink.data('link');
+    
+    if (externalUrl) {
+      window.open(externalUrl, '_blank');
+    }
+  });
+});
+</script>
 
 
 <!-- Configuración opcional -->
