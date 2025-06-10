@@ -53,7 +53,6 @@ sections:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
         icon: proyecto-excel1.png
-        link: https://www.youtube.com
         url: '#'
       - title: Excel Project 2
         text: A more detailed excel project with two dashboards of different reports
