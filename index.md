@@ -43,15 +43,11 @@ sections:
     
 
   - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
+    
     projects:
       - title: Excel Dashboard Project 
         text: This is a simple Excel project with a simple dashboard that updates when you update the database
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
+      
         icon: proyecto-excel1.png
         url: '#'
       - title: Excel Project 2
@@ -66,7 +62,7 @@ sections:
       - title: Power BI Project 1 
         text: This is a very short project description.
         icon: powerbi-proyecto1.png
-        url: '#'
+        url: "https://www.youtube.com/watch?v=5XunbFJ9OL8&t=34s"
       - title: Power BI Project 2
         text: This is a very short project description.
         icon: powerbi-proyecto2.png
