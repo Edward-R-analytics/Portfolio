@@ -11000,10 +11000,11 @@ header.masthead h1, header.masthead .h1 {
 .portfolio-item {
   position: relative;
   margin-bottom: 30px;
-  border: 2px solid #f4623a; /* marco con el mismo naranja */
+  border: 2px solid #f4623a; /* marco naranja */
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #f4623a; /* fondo naranja full */
   transition: transform 0.3s ease;
 }
 
@@ -11014,14 +11015,21 @@ header.masthead h1, header.masthead .h1 {
 
 .portfolio-box-caption {
   padding: 20px;
-  background-color: #f4623a; /* fondo naranja sólido */
   color: white;
-  border-top: 2px solid #d14a28; /* un naranja un poco más oscuro para el borde */
+  border-top: 2px solid #d14a28; /* borde un poco más oscuro */
   border-radius: 0 0 8px 8px;
-  min-height: 120px; /* altura fija para que el fondo no cambie con el texto */
+  min-height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: transparent; /* sin fondo */
+}
+
+.portfolio-box img {
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #d14a28; /* para separar la imagen del texto */
+  border-radius: 8px 8px 0 0;
 }
 
 .project-category {
@@ -11035,6 +11043,7 @@ header.masthead h1, header.masthead .h1 {
   margin-bottom: 12px;
   flex-grow: 1;
 }
+
 
 
 
