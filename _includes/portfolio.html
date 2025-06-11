@@ -4,16 +4,22 @@
       {% for proj in section.projects %}
       <div class="col-lg-4 col-sm-6 p-3">
         <div class="portfolio-box">
-          <!-- Lightbox activado en la imagen -->
-          <a href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
+          <!-- Imagen que abre el lightbox y navegación entre imágenes -->
+          <a href="assets/img/portfolio/fullsize/{{ proj.icon }}" data-lightbox="portfolio" data-title="{{ proj.title }}">
             <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
           </a>
-          
+
           <div class="portfolio-info mt-2">
             <h5 class="project-title">{{ proj.title }}</h5>
             <p class="project-description">{{ proj.text }}</p>
           </div>
           
+          <!-- Botón para abrir la imagen (lightbox) -->
+          <a href="assets/img/portfolio/fullsize/{{ proj.icon }}" data-lightbox="portfolio" data-title="{{ proj.title }}" class="btn btn-info mt-2 me-2">
+            Abrir
+          </a>
+
+          <!-- Botón para enlace externo -->
           {% if proj.url and proj.url != '' and proj.url != '#' %}
           <a href="{{ proj.url }}" class="btn btn-primary mt-2" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
           {% else %}
@@ -25,3 +31,4 @@
     </div>
   </div>
 </div>
+

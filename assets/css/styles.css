@@ -11077,4 +11077,12 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.btn {
+  margin-right: 10px;
+}
+
+.me-2 {
+  margin-right: 10px; /* margen entre botones */
+}
+
 
