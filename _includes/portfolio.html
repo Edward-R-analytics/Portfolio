@@ -2,16 +2,24 @@
   <div class="container-fluid p-0">
     <div class="row g-0">
       {% for proj in section.projects %}
-      <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
-              <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">{{ proj.title }}</div>
-                  <div class="project-name">{{ proj.text }}</div>
-              </div>
-          </a>
+      <div class="col-lg-4 col-sm-6 p-3">
+        <div class="portfolio-box">
+          <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
+          
+          <div class="portfolio-info mt-2">
+            <h5 class="project-title">{{ proj.title }}</h5>
+            <p class="project-description">{{ proj.text }}</p>
+          </div>
+          
+          {% if proj.url and proj.url != '' and proj.url != '#' %}
+          <a href="{{ proj.url }}" class="btn btn-primary mt-2" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+          {% else %}
+          <button class="btn btn-secondary mt-2" disabled>Sin enlace</button>
+          {% endif %}
+        </div>
       </div>
       {% endfor %}
     </div>
   </div>
 </div>
+
