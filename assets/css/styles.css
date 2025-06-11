@@ -10995,3 +10995,61 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+
+
+
+/* Contenedor de imagen */
+.portfolio-img-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Overlay de lupa */
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 159, 214, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img-overlay i {
+  color: white;
+  font-size: 2rem;
+}
+
+/* Efectos hover */
+.portfolio-img-container:hover .portfolio-img {
+  transform: scale(1.05);
+}
+
+.portfolio-img-container:hover .img-overlay {
+  opacity: 1;
+}
+
+/* Tarjeta completa */
+.portfolio-card {
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
