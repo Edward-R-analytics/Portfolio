@@ -62,15 +62,17 @@ sections:
       - title: Power BI Project 1 
         text: This is a very short project description.
         icon: powerbi-proyecto1.png
-        url: "https://www.youtube.com/watch?v=5XunbFJ9OL8&t=34s"
+        url: "https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9"
+
       - title: Power BI Project 2
         text: This is a very short project description.
         icon: powerbi-proyecto2.png
-        url: '#'
+        
+
       - title: Power BI Project 3
         text: This is a very short project description.
         icon: powerbi-proyecto3.png
-        url: '#'
+        
 
   - type: members.html
     section_id: members
