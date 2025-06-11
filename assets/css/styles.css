@@ -10997,54 +10997,5 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
-.portfolio-item {
-  position: relative;
-  margin-bottom: 30px;
-  border: 2px solid #f4623a; /* marco naranja */
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  background-color: #f4623a; /* fondo naranja full */
-  transition: transform 0.3s ease;
-}
-
-.portfolio-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
-}
-
-.portfolio-box-caption {
-  padding: 20px;
-  color: white;
-  border-top: 2px solid #d14a28; /* borde un poco más oscuro */
-  border-radius: 0 0 8px 8px;
-  min-height: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: transparent; /* sin fondo */
-}
-
-.portfolio-box img {
-  display: block;
-  width: 100%;
-  border-bottom: 2px solid #d14a28; /* para separar la imagen del texto */
-  border-radius: 8px 8px 0 0;
-}
-
-.project-category {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.project-text {
-  font-size: 1rem;
-  margin-bottom: 12px;
-  flex-grow: 1;
-}
-
-
-
 
 
