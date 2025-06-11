@@ -67,8 +67,8 @@ sections:
       - title: Power BI Project 2
         text: This is a very short project description.
         icon: powerbi-proyecto2.png
+        URL: "https://app.powerbi.com/view?r=eyJrIjoiZDJiODk0NGMtM2Y0Yy00ZDQ2LWE4YzktMDQzOGEzODExNzQ4IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9"
         
-
       - title: Power BI Project 3
         text: This is a very short project description.
         icon: powerbi-proyecto3.png
