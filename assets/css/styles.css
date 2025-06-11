@@ -11149,7 +11149,6 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-
 .text-bright-shadow {
   white-space: pre-line;
   color: #ffffff !important;
@@ -11157,9 +11156,9 @@ header.masthead h1, header.masthead .h1 {
   max-width: 700px;
   margin: 0 auto;
   padding: 20px 30px;
-  background-color: rgba(0,0,0,0.3); /* fondo semi-transparente para mejor legibilidad */
+  background-color: rgba(0,0,0,0.3);
   border-radius: 10px;
-  text-align: left;
+  text-align: center;  /* Aquí centramos el texto */
 }
 
 
