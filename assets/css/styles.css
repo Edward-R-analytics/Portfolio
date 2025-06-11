@@ -10997,38 +10997,67 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
-.portfolio-item {
-  position: relative;
-  margin-bottom: 30px;
-  border: 2px solid #3498db; /* marco azul */
-  border-radius: 8px;         /* esquinas redondeadas */
-  overflow: hidden;           /* para que no se salga nada */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* sombra suave */
-  transition: transform 0.3s ease;
+/* Marco para imágenes */
+.portfolio-img-frame {
+  border: 8px solid white;
+  border-radius: 4px;
+  box-shadow: 
+    0 4px 8px rgba(0,0,0,0.1),
+    0 0 0 1px rgba(0,0,0,0.05); /* Borde interno sutil */
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-.portfolio-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+.portfolio-img-frame:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 8px 20px rgba(0,0,0,0.15),
+    0 0 0 1px rgba(0,0,0,0.05);
 }
 
+/* Fondo mejorado para texto */
 .portfolio-box-caption {
   padding: 20px;
-  background: linear-gradient(135deg, rgba(52, 152, 219, 0.9), rgba(41, 128, 185, 0.8)); /* degradado azul */
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: white;
-  border-top: 2px solid #2980b9;
-  border-radius: 0 0 8px 8px; /* solo abajo redondeado */
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .project-category {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  color: #ecf0f1;
 }
 
 .project-text {
-  font-size: 1rem;
-  margin-bottom: 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #bdc3c7;
+}
+
+/* Enlace mejorado */
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  color: #3498db;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.project-link:hover {
+  color: #2980b9;
+}
+
+.project-link i {
+  transition: transform 0.3s;
+}
+
+.project-link:hover i {
+  transform: translateX(3px);
 }
 
 
