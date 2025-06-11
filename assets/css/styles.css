@@ -11151,7 +11151,14 @@ header.masthead h1, header.masthead .h1 {
 
 
 .text-bright-shadow {
+  white-space: pre-line;
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  max-width: 600px;  /* ancho máximo */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;   /* margen interno horizontal */
+  text-align: left;  /* para que no quede centrado */
 }
+
 
