@@ -10997,5 +10997,84 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
+/* Contenedor del proyecto */
+.portfolio-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+.portfolio-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Imagen */
+.portfolio-box img {
+  border-radius: 5px;
+  max-height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Contenedor de título y descripción */
+.portfolio-info {
+  margin-top: 12px;
+}
+
+/* Título */
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Descripción */
+.project-description {
+  font-size: 1rem;
+  color: #666;
+  min-height: 50px; /* Para que tengan altura consistente */
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: not-allowed;
+  color: #e2e6ea;
+}
+
+@media (max-width: 768px) {
+  .portfolio-box img {
+    max-height: 150px;
+  }
+}
 
 
