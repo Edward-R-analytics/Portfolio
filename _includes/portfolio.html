@@ -2,24 +2,14 @@
   <div class="container-fluid p-0">
     <div class="row g-0">
       {% for proj in section.projects %}
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <!-- Lightbox solo para la imagen -->
-        <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}">
-          <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.title }}" />
-        </a>
-        
-        <!-- Contenedor de texto SEPARADO (aquí puedes agregar enlaces) -->
-        <div class="portfolio-box-caption">
-          <h3 class="project-category">{{ proj.title }}</h3>
-          <p class="project-text">{{ proj.text }}</p>
-          
-          <!-- Ejemplo de enlace personalizado -->
-          {% if proj.url %}
-            <a href="{{ proj.url }}" class="btn btn-sm btn-primary mt-2" target="_blank">
-              Ver Proyecto <i class="fas fa-external-link-alt ms-1"></i>
-            </a>
-          {% endif %}
-        </div>
+      <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
+              <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
+              <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">{{ proj.title }}</div>
+                  <div class="project-name">{{ proj.text }}</div>
+              </div>
+          </a>
       </div>
       {% endfor %}
     </div>
