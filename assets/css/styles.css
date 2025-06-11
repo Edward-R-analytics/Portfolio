@@ -11155,11 +11155,12 @@ header.masthead h1, header.masthead .h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   max-width: 700px;
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 20px 60px;  /* Más espacio a los lados */
   background-color: rgba(0,0,0,0.3);
   border-radius: 10px;
-  text-align: center;  /* Aquí centramos el texto */
+  text-align: left;
 }
+
 
 
 
