@@ -11085,4 +11085,66 @@ header.masthead h1, header.masthead .h1 {
   margin-right: 10px; /* margen entre botones */
 }
 
+.portfolio-box {
+  background: linear-gradient(135deg, #ffffff, #e0f0ff); /* fondo degradado suave */
+  border-radius: 16px;
+  border: 3px solid #3399ff; /* borde azul llamativo */
+  box-shadow: 0 12px 24px rgba(51, 153, 255, 0.4); /* sombra azulada */
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  cursor: default;
+}
+
+.portfolio-box:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(51, 153, 255, 0.7);
+  border-color: #007bff;
+  cursor: pointer;
+}
+
+.portfolio-box img {
+  border-radius: 12px;
+  max-height: 220px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.08);
+}
+
+.portfolio-info {
+  margin-top: 18px;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #004080;
+  margin-bottom: 12px;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  color: #336699;
+  min-height: 65px;
+  margin-bottom: 20px;
+}
+
+/* Botones un poco más grandes y con sombra */
+.btn {
+  margin-right: 14px;
+  padding: 12px 28px;
+  box-shadow: 0 5px 10px rgba(0, 102, 204, 0.25);
+  font-weight: 700;
+  border-radius: 30px;
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 18px rgba(0, 102, 204, 0.4);
+}
+
 
