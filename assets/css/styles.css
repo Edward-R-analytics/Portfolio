@@ -11148,6 +11148,6 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
-.bg-opacity-75 {
-  background-color: rgba(255, 255, 255, 0.75);
+.text-white-50 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
