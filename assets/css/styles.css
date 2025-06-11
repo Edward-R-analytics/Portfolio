@@ -11154,8 +11154,13 @@ header.masthead h1, header.masthead .h1 {
   white-space: pre-line;
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  padding: 0 20px;  /* espacio a los lados */
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: rgba(0,0,0,0.3); /* fondo semi-transparente para mejor legibilidad */
+  border-radius: 10px;
   text-align: left;
 }
+
 
 
