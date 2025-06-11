@@ -4,7 +4,10 @@
       {% for proj in section.projects %}
       <div class="col-lg-4 col-sm-6 p-3">
         <div class="portfolio-box">
-          <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
+          <!-- Lightbox activado en la imagen -->
+          <a href="assets/img/portfolio/fullsize/{{ proj.icon }}" title="{{ proj.title }}">
+            <img class="img-fluid" src="assets/img/portfolio/thumbnails/{{ proj.icon }}" alt="{{ proj.icon }}" />
+          </a>
           
           <div class="portfolio-info mt-2">
             <h5 class="project-title">{{ proj.title }}</h5>
