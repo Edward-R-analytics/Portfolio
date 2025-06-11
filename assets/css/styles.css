@@ -11148,3 +11148,18 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
+.bg-white {
+  background-color: white;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
