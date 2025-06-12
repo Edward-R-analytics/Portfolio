@@ -11222,17 +11222,4 @@ header.masthead h1, header.masthead .h1 {
   text-indent: 0;
 }
 
-/* Centrar el segundo título (h2) dentro de la caja */
-.text-bright-shadow h2 {
-  text-align: center !important;
-  text-indent: 0 !important;  /* Elimina sangría si la hereda */
-  margin: 1em 0 !important;   /* Espacio arriba/abajo */
-  width: 100%;
-}
 
-/* Mantener sangría en párrafos normales */
-.text-bright-shadow p {
-  text-indent: 1.5em;
-  margin: 0 0 0.5em 0;
-  text-align: left;  /* Alinear normal el resto */
-}
