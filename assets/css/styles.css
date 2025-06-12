@@ -11169,7 +11169,7 @@ header.masthead h1, header.masthead .h1 {
   white-space: pre-line;
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  max-width: 700px;
+  max-width: 100px;
   margin: 0 auto;
   padding: 20px 60px;
   background-color: rgba(0,0,0,0.3);
@@ -11186,10 +11186,9 @@ header.masthead h1, header.masthead .h1 {
   display: block;      /* Asegura que sea bloque */
 }
 
-/* Elimina sangría en el primer párrafo si lo prefieres */
-/* .text-bright-shadow p:first-child { text-indent: 0; } */
 
-/* Controla saltos de línea (Markdown) */
+
+
 
 
 
