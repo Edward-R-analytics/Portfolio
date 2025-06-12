@@ -11190,11 +11190,7 @@ header.masthead h1, header.masthead .h1 {
 /* .text-bright-shadow p:first-child { text-indent: 0; } */
 
 /* Controla saltos de línea (Markdown) */
-.text-bright-shadow br {
-  content: " ";        /* Fuerza un solo salto */
-  display: block;
-  margin-bottom: 0;    /* Sin espacio extra */
-}
+
 
 
 /* Estilo para la caja unificada */
