@@ -11223,7 +11223,5 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .centered-subtitle {
-  text-align: center !important;
-  display: block;
-  font-size: 1.5em; /* Tamaño similar a h2 */
+  border: 1px solid red !important;  /* Para debuggear */
 }
