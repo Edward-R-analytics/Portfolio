@@ -13,6 +13,7 @@
               {{ section.text | markdownify }}
                {{ section.extra_text | markdownify | default: "" }}
         </div>
+        {% include actions.html actions=section.actions %}
       </div>
     </div>
   </div>
