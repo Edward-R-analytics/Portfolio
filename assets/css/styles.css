@@ -11172,12 +11172,12 @@ header.masthead h1, header.masthead .h1 {
 /* Estilo para la caja unificada */
 .text-bright-shadow {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px 40px;
+  padding: 20px 50px;
   border-radius: 10px;
   text-align: left;
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
