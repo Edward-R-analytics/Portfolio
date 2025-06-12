@@ -11197,16 +11197,16 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
-/* Estilos para la nueva caja */
+/* Estilo para el segundo texto */
 .text-custom-box {
-  background-color: rgba(0, 0, 0, 0.3);  /* Fondo similar al original */
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 40px;
   border-radius: 10px;
-  text-align: left;  /* Alineación personalizada */
+  text-align: left;
 }
 
 .text-custom-box p {
-  text-indent: 1.5em;  /* Sangría en párrafos */
-  margin-bottom: 1em;   /* Espacio entre párrafos */
-  color: #ffffff;      /* Color del texto */
+  text-indent: 1.5em;
+  margin-bottom: 1em;
+  color: #ffffff;
 }
