@@ -58,17 +58,17 @@ sections:
         url:
         
       - title: Power BI Project 1 
-        text: This is a very short project description.
+        text: Project with two interconnectable dashboards to filter from different periods, region and products (uploaded to the PBI cloud).
         icon: powerbi-proyecto1.png
         url: "https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9"
 
       - title: Power BI Project 2
-        text: This is a very short project description.
+        text: Project with two interconnectable dashboards to filter by status, year, client type and manager (uploaded to the PBI cloud).
         icon: powerbi-proyecto2.png
         url: https://app.powerbi.com/view?r=eyJrIjoiZDJiODk0NGMtM2Y0Yy00ZDQ2LWE4YzktMDQzOGEzODExNzQ4IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9
         
       - title: Power BI Project 3
-        text: This is a very short project description.
+        text: Project with a simple but informative interactive dashboard (not in the cloud).
         icon: powerbi-proyecto3.png
         
 
