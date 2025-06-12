@@ -11197,16 +11197,27 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
-/* Estilo para el segundo texto */
-.text-custom-box {
+/* Estilo para la caja unificada */
+.text-bright-shadow {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 40px;
   border-radius: 10px;
   text-align: left;
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.text-custom-box p {
+/* Sangría y espaciado para TODOS los párrafos */
+.text-bright-shadow p {
   text-indent: 1.5em;
-  margin-bottom: 1em;
-  color: #ffffff;
+  margin: 0 0 0.5em 0 !important; /* 0.5em = medio renglón de espacio */
+  line-height: 1.5;
+  padding: 0;
+}
+
+/* Elimina sangría en el primer párrafo si lo prefieres */
+.text-bright-shadow p:first-child {
+  text-indent: 0;
 }
