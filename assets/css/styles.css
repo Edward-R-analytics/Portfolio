@@ -11155,5 +11155,43 @@ header.masthead h1, header.masthead .h1 {
 /* Estilo para el contenedor del texto */
 
 
+/* Sangría para párrafos */
+.text-bright-shadow p {
+  text-indent: 1.5em;  /* Sangría tipo libro */
+  margin: 0;           /* Elimina márgenes automáticos */
+  padding: 0;          /* Elimina padding */
+  display: block;      /* Asegura que sea bloque */
+}
+
+
+
+
+
+
+
+/* Estilo para la caja unificada */
+.text-bright-shadow {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 50px;
+  border-radius: 10px;
+  text-align: left;
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sangría y espaciado para TODOS los párrafos */
+.text-bright-shadow p {
+  text-indent: 1.5em;
+  margin: 0 0 0.5em 0 !important; /* 0.5em = medio renglón de espacio */
+  line-height: 1.5;
+  padding: 0;
+}
+
+/* Elimina sangría en el primer párrafo si lo prefieres */
+.text-bright-shadow p:first-child {
+  text-indent: 0;
+}
 
 
