@@ -11197,4 +11197,16 @@ header.masthead h1, header.masthead .h1 {
 }
 
 
+/* Estilos para la nueva caja */
+.text-custom-box {
+  background-color: rgba(0, 0, 0, 0.3);  /* Fondo similar al original */
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: left;  /* Alineación personalizada */
+}
 
+.text-custom-box p {
+  text-indent: 1.5em;  /* Sangría en párrafos */
+  margin-bottom: 1em;   /* Espacio entre párrafos */
+  color: #ffffff;      /* Color del texto */
+}
