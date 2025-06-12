@@ -11196,5 +11196,25 @@ header.masthead h1, header.masthead .h1 {
   margin-bottom: 0;    /* Sin espacio extra */
 }
 
+}
+
+.call-to-action h2 {
+  text-align: center !important;  /* Título centrado */
+  margin-bottom: 20px;
+}
+
+.call-to-action .text-bright-shadow {
+  text-align: left;              /* Texto alineado a la izquierda */
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.call-to-action .text-bright-shadow p {
+  text-indent: 1.5em;           /* Sangría en párrafos */
+  margin: 0 0 1em 0 !important; /* 1em de espacio abajo (línea en blanco) */
+  line-height: 1.6;
+  padding: 0;
+}
+
 
 
