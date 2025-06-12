@@ -11149,19 +11149,7 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-.text-bright-shadow {
-  white-space: pre-line;
-  color: #ffffff !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 20px 60px;
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 10px;
-  text-align: left;
-  text-indent: 1em; /* Sangría al inicio de cada párrafo */
-  
-}
+
 
 
 /* Estilo para el contenedor del texto */
