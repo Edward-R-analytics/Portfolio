@@ -7,11 +7,12 @@
         <hr class="divider border border-2 border-white">
         
         <!-- Caja única para AMBOS textos -->
-        <div class="mb-4 text-bright-shadow" >
-          <p class="centered-subtitle">Segundo título</p>
-          {{ section.text | markdownify }}
-          {{ section.extra_text | markdownify | default: "" }}
-        </div>
+        <div class="mb-4 text-bright-shadow">
+  <!-- Añade "text-center" y "w-100" al párrafo -->
+  <p class="centered-subtitle text-center w-100 mb-3">Segundo título</p>
+  {{ section.text | markdownify }}
+  {{ section.extra_text | markdownify | default: "" }}
+</div>
       </div>
     </div>
   </div>
