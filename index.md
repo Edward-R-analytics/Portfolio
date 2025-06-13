@@ -56,7 +56,7 @@ sections:
       - title: Excel Project 3
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto-excel3.png
-        url:
+        url: "https://drive.google.com/drive/folders/1c--n_-UvzwPObxZ_befoIYEwGoh90BqS?usp=sharing"
         
       - title: Power BI Project 1 
         text: Project with two interconnectable dashboards to filter from different periods, region and products (uploaded to the PBI cloud).
