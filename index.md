@@ -51,6 +51,7 @@ sections:
       - title: Excel Project 2
         text: A more detailed excel project with two dashboards of different reports
         icon: proyecto_excel2.png
+        url: "https://drive.google.com/drive/folders/1Ex1V_KztzBcXOjr-YERZpnsXEUlVVngI?usp=drive_link"
         
       - title: Excel Project 3
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
