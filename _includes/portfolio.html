@@ -16,12 +16,12 @@
           
           <!-- Botón para abrir la imagen (lightbox) -->
           <a href="assets/img/portfolio/fullsize/{{ proj.icon }}" data-lightbox="portfolio" data-title="{{ proj.title }}" class="btn btn-info mt-2 me-2">
-            Abrir
+            Open
           </a>
 
           <!-- Botón para enlace externo -->
           {% if proj.url and proj.url != '' and proj.url != '#' %}
-          <a href="{{ proj.url }}" class="btn btn-primary mt-2" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+          <a href="{{ proj.url }}" class="btn btn-primary mt-2" target="_blank" rel="noopener noreferrer">See Project</a>
           {% else %}
           <button class="btn btn-secondary mt-2" disabled>Sin enlace</button>
           {% endif %}
