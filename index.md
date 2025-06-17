@@ -113,9 +113,10 @@ sections:
     - title: +58 424-7722348
       image: assets/img/Contact/whatsapp-logo.jpg
       is_link: false
-    - title: moisesrp669@gmail.com
+    - title: 
       image: assets/img/Contact/gmail.png
-      is_link: false
+      url: moisesrp669@gmail.com
+      is_link: true
     - title: LinkedIn
       image: assets/img/Contact/linkedin.png
       url: https://www.linkedin.com/in/edwardrondón/
