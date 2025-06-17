@@ -113,7 +113,7 @@ sections:
     - title: +58 424-7722348
       image: assets/img/Contact/whatsapp-logo.jpg
       is_link: false
-    - title: 
+    - title: moisesrp669@gmail.com
       image: assets/img/Contact/gmail.png
       url: moisesrp669@gmail.com
       is_link: true
