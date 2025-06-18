@@ -11169,6 +11169,7 @@ header.masthead h1, header.masthead .h1 {
   border-radius: 10px;
   color: white;
   font-size: 1.1rem;
+  margin-bottom: 1.5em;
 }
 
 /* Asegúrate que ningún padre tenga max-width */
