@@ -11152,10 +11152,8 @@ header.masthead h1, header.masthead .h1 {
 
 
 .text-bright-shadow {
-  max-width: 900px !important; 
-  width: 100% !important;      
-  margin-left: auto !important;
-  margin-right: auto !important;
+  max-width: 500px; /* Más ancha (antes 700px) */
+  width: 90%; /* Opcional: para que no toque los bordes en pantallas grandes */
   margin: 0 auto;
   padding: 15px 80px; /* Menos alto (15px top/bottom) y más ancho (80px laterales) */
   background-color: rgba(0, 0, 0, 0.3);
