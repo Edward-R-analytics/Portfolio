@@ -107,7 +107,7 @@ sections:
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with me? Give us a call or send me an email
+      Ready to start your next project with me? Give me a call or send me an email
       and we will get back to you as soon as possible!
     actions:
     - title: +58 424-7722348

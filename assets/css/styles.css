@@ -11149,73 +11149,33 @@ header.masthead h1, header.masthead .h1 {
 
 
 
+
+
+/* Estilo optimizado para la caja de texto */
 .text-bright-shadow {
-  white-space: pre-line;
-  color: #ffffff !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   max-width: 700px;
   margin: 0 auto;
   padding: 20px 60px;
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 10px;
-  text-align: left;
-  text-indent: 1em; /* Sangría al inicio de cada párrafo */
-  
-}
-
-
-/* Estilo para el contenedor del texto */
-.text-bright-shadow {
-  white-space: pre-line;
-  color: #ffffff !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 20px 60px;
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 10px;
-  text-align: left; /* Alineación general a la izquierda */
-  line-height: 1.5; /* Espaciado entre líneas uniforme */
-  
-}
-
-/* Sangría para párrafos */
-.text-bright-shadow p {
-  text-indent: 1.5em;  /* Sangría tipo libro */
-  margin: 0;           /* Elimina márgenes automáticos */
-  padding: 0;          /* Elimina padding */
-  display: block;      /* Asegura que sea bloque */
-}
-
-
-
-
-
-
-
-/* Estilo para la caja unificada */
-.text-bright-shadow {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px 40px;
   border-radius: 10px;
-  text-align: left;
   color: #ffffff !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  max-width: 700px;
-  margin: 0 auto;
+  text-align: left;
+  line-height: 1.5;
+  white-space: pre-line;
 }
 
-/* Sangría y espaciado para TODOS los párrafos */
+/* Estilo para párrafos dentro de la caja */
 .text-bright-shadow p {
   text-indent: 1.5em;
-  margin: 0 0 0.5em 0 !important; /* 0.5em = medio renglón de espacio */
-  line-height: 1.5;
+  margin: 0;
   padding: 0;
+  display: block;
 }
 
-/* Elimina sangría en el primer párrafo si lo prefieres */
-.text-bright-shadow p:first-child {
-  text-indent: 0;
+/* Estilo específico para el párrafo centrado (tu subtítulo) */
+.text-bright-shadow p.text-center {
+  text-indent: 0;  /* Elimina sangría */
+  text-align: center; /* Centrado */
+  margin-bottom: 1rem; /* Espaciado opcional */
 }
-
-
