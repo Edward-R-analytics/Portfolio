@@ -11151,30 +11151,28 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-.text-bright-shadow {
-  max-width: 500px; /* Más ancha (antes 700px) */
-  width: 90%; /* Opcional: para que no toque los bordes en pantallas grandes */
+/* Contenedor sin límites de ancho */
+.full-width-container {
+  width: 100%;
+  max-width: 1200px; /* O ajusta este valor */
   margin: 0 auto;
-  padding: 15px 80px; /* Menos alto (15px top/bottom) y más ancho (80px laterales) */
+  padding: 0 20px; /* Espacio en los bordes */
+}
+
+/* Caja de texto - ANCHO MÁXIMO PERSONALIZADO */
+.text-bright-shadow {
+  width: 100%;
+  max-width: 900px; /* ¡Ajústalo a tu gusto! */
+  margin: 0 auto; /* Centrado */
+  padding: 20px 5%; /* Padding porcentual para adaptabilidad */
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  text-align: left;
-  line-height: 1.5; /* Espaciado entre líneas compacto */
-  font-size: 1.1rem; /* Texto un poco más grande */
+  color: white;
+  font-size: 1.1rem;
 }
 
-/* Ajustes para el subtítulo centrado */
-.text-bright-shadow p.text-center {
-  text-indent: 0;
-  text-align: center;
-  font-size: 1.3rem;
-  margin-bottom: 1rem; /* Reducir espacio bajo el subtítulo */
-}
-
-/* Reducir sangría en párrafos para ahorrar espacio */
-.text-bright-shadow p {
-  text-indent: 1em; /* Reducido de 1.5em */
-  margin: 0 0 0.5em 0; /* Menos espacio entre párrafos */
+/* Asegúrate que ningún padre tenga max-width */
+section.page-section,
+section.page-section > div {
+  max-width: none !important;
 }

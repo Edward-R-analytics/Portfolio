@@ -1,20 +1,11 @@
 <section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
-  <div class="container px-4 px-lg-5 text-center">
-    <div class="row gx-4 gx-lg-5 justify-content-center">
-      <div class="col-lg-8 col-xl-6 {{ section.text_style | default: 'text-center' }}">
-        <!-- Título -->
-        <h2 class="text-white mt-0 text-center">{{ section.title }}</h2>
-        <hr class="divider border border-2 border-white">
-        
-        <!-- Caja única para AMBOS textos -->
-        <div class="mb-4 text-bright-shadow">
-        <!-- Añade "text-center" y "w-100" al párrafo -->
-          <p class= "text-center ">Junior Data Analyst | Excel and Power BI Enthusiast</p>
-              {{ section.text | markdownify }}
-               {{ section.extra_text | markdownify | default: "" }}
-        </div>
-        {% include actions.html actions=section.actions %}
-      </div>
+  <!-- ELIMINA el container/row que limita el ancho -->
+  <div class="full-width-container"> <!-- Nuevo contenedor sin restricciones -->
+    <div class="text-bright-shadow mx-auto"> <!-- mx-auto para centrar -->
+      <p class="text-center">Junior Data Analyst | Excel and Power BI Enthusiast</p>
+      {{ section.text | markdownify }}
+      {{ section.extra_text | markdownify | default: "" }}
     </div>
+    {% include actions.html actions=section.actions %}
   </div>
 </section>
