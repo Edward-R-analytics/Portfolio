@@ -11151,34 +11151,30 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-/* Versión optimizada y con los nuevos ajustes */
 .text-bright-shadow {
-  max-width: 800px; /* Aumenté de 700px a 800px (o usa 900px si prefieres más ancho) */
+  max-width: 900px; /* Más ancha (antes 700px) */
+  width: 90%; /* Opcional: para que no toque los bordes en pantallas grandes */
   margin: 0 auto;
-  padding: 25px 70px; /* Más espacio interno */
+  padding: 15px 80px; /* Menos alto (15px top/bottom) y más ancho (80px laterales) */
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: left;
-  line-height: 1.6; /* Espaciado entre líneas más amplio */
-  white-space: pre-line;
-  font-size: 1.1rem; /* Tamaño base de fuente aumentado (equivale a ~17.6px) */
+  line-height: 1.5; /* Espaciado entre líneas compacto */
+  font-size: 1.1rem; /* Texto un poco más grande */
 }
 
-/* Ajustes para párrafos */
-.text-bright-shadow p {
-  text-indent: 1.5em;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-/* Tamaño aumentado para el subtítulo centrado */
+/* Ajustes para el subtítulo centrado */
 .text-bright-shadow p.text-center {
   text-indent: 0;
   text-align: center;
-  font-size: 1.4rem; /* ~22.4px */
-  font-weight: 600; /* Negrita para destacar */
-  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem; /* Reducir espacio bajo el subtítulo */
+}
+
+/* Reducir sangría en párrafos para ahorrar espacio */
+.text-bright-shadow p {
+  text-indent: 1em; /* Reducido de 1.5em */
+  margin: 0 0 0.5em 0; /* Menos espacio entre párrafos */
 }
