@@ -11151,21 +11151,22 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-/* Estilo optimizado para la caja de texto */
+/* Versión optimizada y con los nuevos ajustes */
 .text-bright-shadow {
-  max-width: 700px;
+  max-width: 800px; /* Aumenté de 700px a 800px (o usa 900px si prefieres más ancho) */
   margin: 0 auto;
-  padding: 20px 60px;
+  padding: 25px 70px; /* Más espacio interno */
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  color: #ffffff !important;
+  color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.6; /* Espaciado entre líneas más amplio */
   white-space: pre-line;
+  font-size: 1.1rem; /* Tamaño base de fuente aumentado (equivale a ~17.6px) */
 }
 
-/* Estilo para párrafos dentro de la caja */
+/* Ajustes para párrafos */
 .text-bright-shadow p {
   text-indent: 1.5em;
   margin: 0;
@@ -11173,9 +11174,11 @@ header.masthead h1, header.masthead .h1 {
   display: block;
 }
 
-/* Estilo específico para el párrafo centrado (tu subtítulo) */
+/* Tamaño aumentado para el subtítulo centrado */
 .text-bright-shadow p.text-center {
-  text-indent: 0;  /* Elimina sangría */
-  text-align: center; /* Centrado */
-  margin-bottom: 1rem; /* Espaciado opcional */
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.4rem; /* ~22.4px */
+  font-weight: 600; /* Negrita para destacar */
+  margin-bottom: 1.5rem;
 }
