@@ -19,22 +19,26 @@ sections:
 
           <ul>
                Experiencia en:
-              <li>✔ Limpieza y transformación de datos con Power Query (Excel/Power BI).</li>
-              <li>✔ Creación de paneles estratégicos con KPIs para seguimiento de métricas.</li>
-              <li>✔ Desarrollo de consultas SQL (SELECT, JOINs, funciones agregadas) para extracción y análisis de datos.</li>
-              <li>✔ Automatización de informes básicos que optimizan procesos de negocio.</li>
+              <li>Limpieza y transformación de datos con Power Query (Excel/Power BI).</li>
+              <li>Creación de paneles estratégicos con KPIs para seguimiento de métricas.</li>
+              <li>Desarrollo de consultas SQL (SELECT, JOINs, funciones agregadas) para extracción y análisis de datos.</li>
+              <li>Automatización de informes básicos que optimizan procesos de negocio.</li>
 
           </ul>
 
-          <p> Comprometido con el aprendizaje continuo, actualmente profundizando en:
+          <ul>
+              Comprometido con el aprendizaje continuo, actualmente profundizando en:
 
-              -  SQL avanzado (subconsultas, optimización de queries).
+              <li>SQL avanzado (subconsultas, optimización de queries).</li>
 
-              -  Análisis estadístico aplicado a datos empresariales.
+              <li>Análisis estadístico aplicado a datos empresariales.</li>
 
-              -  Buenas prácticas de modelado y arquitectura de datos.
+              <li>Buenas prácticas de modelado y arquitectura de datos.</li>
+          </ul>
 
-              Busco oportunidades donde pueda aportar soluciones basadas en datos, colaborar con equipos multidisciplinarios y crecer profesionalmente en un entorno innovador. Valores: precisión, curiosidad y mejora constante. </p>
+            <p>Busco oportunidades donde pueda aportar soluciones basadas en datos, colaborar con equipos multidisciplinarios y crecer profesionalmente en un entorno innovador. Valores: precisión, curiosidad y mejora constante.</p>
+
+          
 
       
 
