@@ -14,9 +14,23 @@ sections:
     section_id: about
     background_style: bg-primary
     title: About Me
-    text: Aspiring data analyst with foundational skills in Excel, Power BI, and data visualization. Passionate about transforming raw data into meaningful insights through interactive dashboards and clear visuals. Skilled in basic data cleaning, analysis, and creating reports to support decision-making.
+    text: "Analista de datos en formación con sólidos conocimientos en Excel y Power BI, y habilidades básicas en SQL y visualización de datos. Apasionado por transformar datos complejos en información clara mediante dashboards interactivos y reportes estratégicos.
 
-      Eager to grow and contribute by applying learned techniques and exploring innovative solutions to data challenges. Committed to delivering reliable and detail-oriented work while continuously improving and gaining expertise in the field.
+      Experiencia en:
+      ✔ Limpieza y transformación de datos con Power Query (Excel/Power BI).
+      ✔ Creación de paneles intuitivos con métricas clave para toma de decisiones.
+      ✔ Consultas SQL básicas (SELECT, WHERE, GROUP BY, JOINs simples) para extracción de datos.
+      ✔ Automatización de informes que agilizan procesos operativos.
+
+      En constante aprendizaje, actualmente enfocado en:
+
+      Fundamentos de SQL (práctica con queries reales en bases de datos relacionales).
+
+      Técnicas intermedias de Power BI (DAX, modelado de datos).
+
+      Buenas prácticas de documentación y calidad de datos.
+
+      Busco oportunidades donde pueda aplicar mis conocimientos técnicos, contribuir con análisis precisos y seguir desarrollándome profesionalmente en un equipo colaborativo. Valores: rigor analítico, curiosidad y mejora continua."
     actions: #
       - title: Get Started!
         url: '#services'
