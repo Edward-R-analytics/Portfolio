@@ -15,28 +15,28 @@ sections:
     background_style: bg-primary
     title: About Me
     text: |
-          <p> Analista de datos en formación con sólidos conocimientos en Excel y Power BI, y habilidades básicas en SQL y visualización de datos. Apasionado por transformar datos complejos en información clara mediante dashboards interactivos y reportes estratégicos. </p>
+          <p> Data analyst in training with solid knowledge of Excel and Power BI, and basic skills in SQL and data visualization. Passionate about transforming complex data into clear information through interactive dashboards and strategic reports. </p>
 
           <ul>
-               Experiencia en:
-              <li>Limpieza y transformación de datos con Power Query (Excel/Power BI).</li>
-              <li>Creación de paneles estratégicos con KPIs para seguimiento de métricas.</li>
-              <li>Desarrollo de consultas SQL (SELECT, JOINs, funciones agregadas) para extracción y análisis de datos.</li>
-              <li>Automatización de informes básicos que optimizan procesos de negocio.</li>
+               Experience in:
+              <li>Data cleaning and transformation with Power Query (Excel/Power BI).</li>
+              <li>Creation of strategic panels with KPIs to track metrics.</li>
+              <li>Development of SQL queries (SELECT, JOINs, aggregate functions) for data extraction and analysis.</li>
+              <li>Automation of basic reports that optimize business processes.</li>
 
           </ul>
 
           <ul>
-              Comprometido con el aprendizaje continuo, actualmente profundizando en:
+              Committed to continuous learning, currently delving into:
 
-              <li>SQL avanzado (subconsultas, optimización de queries).</li>
+              <li>Advanced SQL (subqueries, query optimization).</li>
 
-              <li>Análisis estadístico aplicado a datos empresariales.</li>
+              <li>Statistical analysis applied to business data.</li>
 
-              <li>Buenas prácticas de modelado y arquitectura de datos.</li>
+              <li>Good data modeling and architecture practices.</li>
           </ul>
 
-            <p>Busco oportunidades donde pueda aportar soluciones basadas en datos, colaborar con equipos multidisciplinarios y crecer profesionalmente en un entorno innovador. Valores: precisión, curiosidad y mejora constante.</p>
+            <p>I look for opportunities where I can provide data-based solutions, collaborate with multidisciplinary teams and grow professionally in an innovative environment. Values: precision, curiosity and constant improvement.</p>
 
           
 
