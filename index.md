@@ -15,8 +15,23 @@ sections:
     background_style: bg-primary
     title: About Me
     text: |
+          <p> Analista de datos en formación con sólidos conocimientos en Excel y Power BI, y habilidades básicas en SQL y visualización de datos. Apasionado por transformar datos complejos en información clara mediante dashboards interactivos y reportes estratégicos. </p>
 
-           <p>asdsa </p>
+          <p> Experiencia en:
+              ✔ Limpieza y transformación de datos con Power Query (Excel/Power BI).
+              ✔ Creación de paneles estratégicos con KPIs para seguimiento de métricas.
+              ✔ Desarrollo de consultas SQL (SELECT, JOINs, funciones agregadas) para extracción y análisis de datos.
+              ✔ Automatización de informes básicos que optimizan procesos de negocio. </p>
+
+          <p> Comprometido con el aprendizaje continuo, actualmente profundizando en:
+
+              -  SQL avanzado (subconsultas, optimización de queries).
+
+              -  Análisis estadístico aplicado a datos empresariales.
+
+              -  Buenas prácticas de modelado y arquitectura de datos.
+
+              Busco oportunidades donde pueda aportar soluciones basadas en datos, colaborar con equipos multidisciplinarios y crecer profesionalmente en un entorno innovador. Valores: precisión, curiosidad y mejora constante. </p>
 
       
 
