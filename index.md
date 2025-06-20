@@ -140,7 +140,7 @@ sections:
       is_link: false
     - title: moisesrp669@gmail.com
       image: assets/img/Contact/gmail.png
-      url: moisesrp669@gmail.com
+      url: "mailto:moisesrp669@gmail.com"
       is_link: true
     - title: LinkedIn
       image: assets/img/Contact/linkedin.png
