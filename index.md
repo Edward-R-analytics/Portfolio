@@ -95,7 +95,7 @@ sections:
         
       - title: Power BI Project 3
         text: Project with a simple but informative interactive dashboard (not in the cloud).
-        icon: powerbi-proyecto3.png
+        icon: proyectobi_ing.png
         
 
   - type: members.html
