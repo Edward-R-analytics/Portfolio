@@ -79,7 +79,7 @@ sections:
         url: "https://drive.google.com/drive/folders/1Ex1V_KztzBcXOjr-YERZpnsXEUlVVngI?usp=drive_link"
         
       - title: Excel Business Case Analysis | PivotTables & Scenario Modeling
-        text: Solved 9 business questions for a fictional retail case using Excel. Transformed raw sales data into strategic insights through PivotTables. Skills: Problem decomposition, data storytelling, Excel modeling.
+        text: Solved 9 business questions for a fictional retail case using Excel. Transformed raw sales data into strategic insights through PivotTables. Skills Problem decomposition, data storytelling, Excel modeling.
         icon: proyecto3_ing.png
         url: "https://drive.google.com/drive/folders/1c--n_-UvzwPObxZ_befoIYEwGoh90BqS?usp=sharing"
         
