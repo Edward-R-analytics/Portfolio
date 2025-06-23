@@ -68,33 +68,33 @@ sections:
   - type: portfolio.html
     
     projects:
-      - title: Excel Dashboard Project 
-        text: This is a simple Excel project with a simple dashboard that updates when you update the database
+      - title: Excel Sales Analyzer | Interactive Dashboard with Dynamic Data Segmentation 
+        text: Self-developed Excel dashboard to analyze sales performance.
       
         icon: proyecto1_ing.png
         url: '#'
-      - title: Excel Project 2
-        text: A more detailed excel project with two dashboards of different reports
+      - title: Excel Financial Dashboard Suite | Revenue, Profit & Margin Analysis
+        text: Financial dashboard trio in Excel analyzing revenue streams, cost efficiency, and margin health. Skills: Financial analysis, ETL, dynamic reporting.
         icon: proyecto2_ing.png
         url: "https://drive.google.com/drive/folders/1Ex1V_KztzBcXOjr-YERZpnsXEUlVVngI?usp=drive_link"
         
-      - title: Excel Project 3
-        text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
+      - title: Excel Business Case Analysis | PivotTables & Scenario Modeling
+        text: Solved 9 business questions for a fictional retail case using Excel. Transformed raw sales data into strategic insights through PivotTables. Skills: Problem decomposition, data storytelling, Excel modeling.
         icon: proyecto3_ing.png
         url: "https://drive.google.com/drive/folders/1c--n_-UvzwPObxZ_befoIYEwGoh90BqS?usp=sharing"
         
-      - title: Power BI Project 1 
-        text: Project with two interconnectable dashboards to filter from different periods, region and products (uploaded to the PBI cloud).
+      - title: Sales Performance Dashboard | Power BI (ETL + Dynamic Filtering) 
+        text: "Interactive dashboard with cross-filtering by period, region, and product. Includes ETL processes (Power Query) and automated report publishing in Power BI Service."
         icon: powerbi-proyecto1.png
         url: "https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9"
 
-      - title: Power BI Project 2
-        text: Project with two interconnectable dashboards to filter by status, year, client type and manager (uploaded to the PBI cloud).
+      - title: Production Tracking Dashboard | Power BI (ETL + Cross-Filtering)
+        text: Interactive dashboard for monitoring project status, filtered by year, client type, and manager. Skills: Data Transformation, ETL processes using Power Query.
         icon: powerbi-proyecto2.png
         url: https://app.powerbi.com/view?r=eyJrIjoiZDJiODk0NGMtM2Y0Yy00ZDQ2LWE4YzktMDQzOGEzODExNzQ4IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9
         
-      - title: Power BI Project 3
-        text: Project with a simple but informative interactive dashboard (not in the cloud).
+      - title: Sales Performance Analytics Suite | Power BI (DAX + Advanced Visuals)
+        text: Two-year sales performance dashboard with ETL (Power Query) and basic DAX measures, analyzing revenue, costs, and profits by month, customer type, and country.
         icon: proyectobi_ing.png
         
 
