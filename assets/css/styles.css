@@ -11181,3 +11181,12 @@ section.page-section,
 section.page-section > div {
   max-width: none !important;
 }
+
+
+.alert {
+  background-color: #e7f4ff;
+  border-left: 4px solid #2a9fd6;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
