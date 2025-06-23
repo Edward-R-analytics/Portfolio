@@ -74,7 +74,7 @@ sections:
         icon: proyecto1_ing.png
         url: '#'
       - title: Excel Financial Dashboard Suite | Revenue, Profit & Margin Analysis
-        text: Financial dashboard trio in Excel analyzing revenue streams, cost efficiency, and margin health. Skills: Financial analysis, ETL, dynamic reporting.
+        text: Financial dashboard trio in Excel analyzing revenue streams, cost efficiency, and margin health. Skills Financial analysis, ETL, dynamic reporting.
         icon: proyecto2_ing.png
         url: "https://drive.google.com/drive/folders/1Ex1V_KztzBcXOjr-YERZpnsXEUlVVngI?usp=drive_link"
         
@@ -89,7 +89,7 @@ sections:
         url: "https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9"
 
       - title: Production Tracking Dashboard | Power BI (ETL + Cross-Filtering)
-        text: Interactive dashboard for monitoring project status, filtered by year, client type, and manager. Skills: Data Transformation, ETL processes using Power Query.
+        text: Interactive dashboard for monitoring project status, filtered by year, client type, and manager. Skills Data Transformation, ETL processes using Power Query.
         icon: powerbi-proyecto2.png
         url: https://app.powerbi.com/view?r=eyJrIjoiZDJiODk0NGMtM2Y0Yy00ZDQ2LWE4YzktMDQzOGEzODExNzQ4IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9
         
