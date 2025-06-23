@@ -68,32 +68,33 @@ sections:
   - type: portfolio.html
     
     projects:
-      - title: Sales Analysis Report on Excel
-        text: Basic project with a single interactive dashboard with data segmentation
+      - title: Excel Dashboard Project 
+        text: This is a simple Excel project with a simple dashboard that updates when you update the database
+      
         icon: proyecto1_ing.png
         url: '#'
-      - title: Revenue, Profit and Margin Report
-        text: Two more optimized and explanatory dashboards with data cleaning in power query
+      - title: Excel Project 2
+        text: A more detailed excel project with two dashboards of different reports
         icon: proyecto2_ing.png
         url: "https://drive.google.com/drive/folders/1Ex1V_KztzBcXOjr-YERZpnsXEUlVVngI?usp=drive_link"
         
-      - title: Simple Excel Report
-        text: Simple report made of PivotTables and few formulas answering 9 questions related to a fictitious case of a company
+      - title: Excel Project 3
+        text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
         icon: proyecto3_ing.png
         url: "https://drive.google.com/drive/folders/1c--n_-UvzwPObxZ_befoIYEwGoh90BqS?usp=sharing"
         
-      - title: Sales Performance Dashboard 
-        text: Interactive data visualization with two interconnectable dashboards to filter from different periods, region and products. ETL process in Power Query. Publishing and scheduling reports in the Power BI service.
+      - title: Power BI Project 1 
+        text: Project with two interconnectable dashboards to filter from different periods, region and products (uploaded to the PBI cloud).
         icon: powerbi-proyecto1.png
         url: "https://app.powerbi.com/view?r=eyJrIjoiMjFlODkxOTItYTQ2Zi00NWQ1LThiODAtZTYzYmUzODQ0NTI2IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9"
 
-      - title: Production Report
-        text: Project with two interconnectable dashboards to filter by status, year, client type and manager. ETL process in Power Query. Publishing and scheduling reports in the Power BI service.
+      - title: Power BI Project 2
+        text: Project with two interconnectable dashboards to filter by status, year, client type and manager (uploaded to the PBI cloud).
         icon: powerbi-proyecto2.png
         url: https://app.powerbi.com/view?r=eyJrIjoiZDJiODk0NGMtM2Y0Yy00ZDQ2LWE4YzktMDQzOGEzODExNzQ4IiwidCI6ImRjMjVjYjUzLTAxNDktNDM0OC1hMjFkLWU1NGVjZjkwZWY2NyIsImMiOjR9
         
-      - title: Sales Performance Analysis 
-        text: Sales Performance Dashboard | Skills: DAX measures, data modeling, custom visuals, and deployment to Power BI Service.
+      - title: Power BI Project 3
+        text: Project with a simple but informative interactive dashboard (not in the cloud).
         icon: proyectobi_ing.png
         
 
