@@ -71,16 +71,16 @@ sections:
       - title: Excel Dashboard Project 
         text: This is a simple Excel project with a simple dashboard that updates when you update the database
       
-        icon: proyecto-excel1.png
+        icon: proyecto1_ing.png
         url: '#'
       - title: Excel Project 2
         text: A more detailed excel project with two dashboards of different reports
-        icon: proyecto_excel2.png
+        icon: proyecto2_ing.png
         url: "https://drive.google.com/drive/folders/1Ex1V_KztzBcXOjr-YERZpnsXEUlVVngI?usp=drive_link"
         
       - title: Excel Project 3
         text: simple excel project without dashboard using only dynamic tables and few formulas to do the analysis
-        icon: proyecto-excel3.png
+        icon: proyecto3_ing.png
         url: "https://drive.google.com/drive/folders/1c--n_-UvzwPObxZ_befoIYEwGoh90BqS?usp=sharing"
         
       - title: Power BI Project 1 
